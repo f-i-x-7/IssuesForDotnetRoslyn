@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace IssuesForDotnetRoslyn
+namespace IssuesForDotnetRoslyn.Issue57438
 {
+    // https://github.com/dotnet/roslyn/issues/57438
     public sealed class Foo<T>
     {
         private readonly Func<int, T>? _func1;
